@@ -1,0 +1,74 @@
+.mainDiv{
+
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #c8c10e;
+height: 100px;
+
+
+}
+
+
+.subdiv{
+
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: nowrap;
+
+}
+
+
+.icons{
+
+color: #f9fef7;
+font-size: 35px;
+margin-top: 5px;
+
+
+}
+
+.icons:hover  ,.icon-text:hover{
+
+    cursor: pointer;
+
+}
+
+.icon-text{
+
+    text-transform: uppercase ;
+    align-self: flex-start;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    color: #f9fef7;
+
+}
+
+.product{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    /* border: 2px solid red; */
+
+}
+
+
+
+/* for mobile screens */
+
+@media(max-width : 700px){
+    
+    .product i ,p{
+        
+       padding: 4px;
+        
+    }
+    
+
+} 

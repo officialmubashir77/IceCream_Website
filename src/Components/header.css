@@ -1,0 +1,41 @@
+*{
+    margin:  0px;
+    padding:  0px;
+    box-sizing: border-box;
+}
+
+.mainBox{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border:  2px solid red; */
+    background-color: #e9e7e8;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+.lists ul{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+}
+
+.lists li{
+    
+    margin: 0px 40px 0px 40px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.lists ul li:first-child{
+    color: #cb3362;
+}

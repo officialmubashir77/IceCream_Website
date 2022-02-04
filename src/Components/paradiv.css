@@ -1,0 +1,46 @@
+
+.mainParaDiv{
+
+    display: flex;
+    /* border:  2px solid blue; */
+    justify-content: center;
+    background-color: #e9e7e8;
+    flex-wrap: wrap;
+
+}
+
+.para p:first-child , h2{
+
+    text-transform: uppercase;
+
+}
+
+
+.para{
+
+display: flex;
+flex-direction: column  ;
+justify-content: center;
+
+}
+
+.allcont{
+
+    margin: 10px 0px 10px 0px;
+}
+
+
+.para p:first-child{
+
+font-size: 22px;
+font-weight: bold;
+color:  #a09795 ;
+
+}
+
+.heading{
+
+    color: #ca345b;
+
+}
+
